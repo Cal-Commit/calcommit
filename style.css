@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-family: 'Roboto Mono', monospace;
+  scroll-behavior: smooth;
+}
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+}
+.row{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.column{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.one-of-two{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+section{
+  width: 100%;
+  height: 100vh;
+}
+
+a{
+  padding: 10px;
+  border-radius: 15px;
+  border: 1px solid white;
+  margin: 5px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+.f{
+  display: none;
+}
+a:hover{
+  transition: 0.3s;
+  transform: scale(1.05);
+}
+#info{
+  height: 125vh;
+}
+.top{
+  justify-content: top;
+}
+@media only screen and (max-width: 600px) {
+  .row{
+    flex-direction: column;
+  }
+  h1{
+    font-size: 20px;
+  }
+  #info{
+        margin-top: 75px;
+  }
+  .logo{
+    margin-top: 150px;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 50px;
+  }
+  secion{
+    height: 100%;
+  }
+  .e{
+    display: none;
+  }
+  .f{
+    display: block;
+    margin: 25px;
+  }
+  .hack-club{
+    width: 768px;
+    height: 192px;
+    transform: scale(2);
+  }
+  .slide{
+    margin-bottom: 100px;
+  }
+}
+@media only screen and (max-width: 380px) {
+  #info{
+        margin-top: 350px;
+  }
+  .hack-club{
+    width: 394px;
+    height: 96px;
+    transform: scale(1.5);
+  }
+}

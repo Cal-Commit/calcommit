@@ -41,7 +41,7 @@ section{
 }
 
 a{
-  padding: 10px;
+  padding: 0.5em;
   border-radius: 15px;
   border: 1px solid white;
   margin: 5px;
@@ -61,6 +61,17 @@ a:hover{
 .top{
   justify-content: top;
 }
+
+.subtitle {
+  border-bottom: 5px;
+  border-top: 0px;
+  border-right: 0px;
+  border-left: 0px;
+  border-color: white;
+  border-style: solid;
+  margin-bottom: 1rem;
+}
+
 @media only screen and (max-width: 600px) {
   .row{
     flex-direction: column;
@@ -96,7 +107,7 @@ a:hover{
     margin-bottom: 100px;
   }
 }
-@media only screen and (max-width: 380px) {
+@media only screen and (max-width: 395px) {
   #info{
         margin-top: 350px;
   }

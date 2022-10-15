@@ -66,6 +66,10 @@ section{
   color: #db8a74;
 }
 a{
+  text-decoration: underline;
+  color: white;
+}
+.buttons{
   text-decoration: none;
   color: white;
   font-family: 'DM Sans', sans-serif;
@@ -78,7 +82,7 @@ a{
   background-color: #212121;
   margin: 5px;
 }
-a:hover{
+.buttons:hover{
   background-color: black;
   color: whitesmoke;
   transform: scale(1.05);
@@ -100,11 +104,12 @@ a:hover{
   }
   .under-construction{
     width: 100%;
-    height: 100vh;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     text-align: center;
+    float: none;
   }
 }

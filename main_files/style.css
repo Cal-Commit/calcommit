@@ -1,119 +1,110 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
 *{
   margin: 0;
   padding: 0;
-  color: white;
-  font-family: 'Roboto Mono', monospace;
+  box-sizing: border-box;
   scroll-behavior: smooth;
 }
-html, body {
+html,body{
   height: 100%;
   width: 100%;
-  background-color: black;
+  background-color: #212121; 
 }
-.row{
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
+h1{
+font-family: 'Dela Gothic One', cursive;
+  color: white;
+  font-size: 55px;
+  font-weight: 400;
 }
-.column{
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-.one-of-two{
-  width: 50%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+h3{
+font-family: 'DM Sans', sans-serif;  color: white;
+  font-size: 25px;
+  font-weight: 800;
 }
 section{
   width: 100%;
   height: 100vh;
 }
-
-a{
-  padding: 0.5em;
-  border-radius: 15px;
-  border: 1px solid white;
-  margin: 5px;
-  text-decoration: none;
-  transition: 0.3s;
+.container{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
 }
-.f{
-  display: none;
+.row{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.calc_logo{
+  background-color: white;
+  border-radius: 100%;
+  transform: scale(0.9);
+}
+.one-of-two{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.hcb_logo{
+  transform: scale(0.5);
+  background-color: #151515;
+  border-radius: 34px;
+}
+.highlight{
+  color: #db8a74;
+}
+a{
+  text-decoration: none;
+  color: white;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 800;
+  padding: 10px 20px;
+  border: 2px solid white;
+  border-radius: 20px;
+  transition: 0.5s;
+  background-color: #212121;
+  margin: 5px;
 }
 a:hover{
-  transition: 0.3s;
+  background-color: black;
+  color: whitesmoke;
   transform: scale(1.05);
+  transition: 0.5s;
 }
-#info{
-  height: 125vh;
+.what_we_do{
+  width: 80%;
+  border-radius: 25px;
 }
-.top{
-  justify-content: top;
-}
-
-.subtitle {
-  border-bottom: 5px;
-  border-top: 0px;
-  border-right: 0px;
-  border-left: 0px;
-  border-color: white;
-  border-style: solid;
-  margin-bottom: 1rem;
-}
-
-@media only screen and (max-width: 600px) {
+@media screen and (max-width: 768px){
   .row{
     flex-direction: column;
+    text-align: center;
+    width: 100%;
   }
-  h1{
-    font-size: 20px;
-  }
-  #info{
-        margin-top: 75px;
-  }
-  .logo{
+  .calc_logo{
+    transform: scale(0.6);
     margin-top: 150px;
-    width: 200px;
-    height: 200px;
-    margin-bottom: 50px;
   }
-  secion{
-    height: 100%;
+  .one-of-two{
+    width: 100%;
   }
-  .e{
-    display: none;
+  section{
+    height: 100vh;
   }
-  .f{
-    display: block;
-    margin: 25px;
-  }
-  .hack-club{
-    width: 768px;
-    height: 192px;
-    transform: scale(2);
-  }
-  .slide{
-    margin-bottom: 100px;
-  }
-}
-@media only screen and (max-width: 395px) {
   #info{
-        margin-top: 350px;
-  }
-  .hack-club{
-    width: 394px;
-    height: 96px;
-    transform: scale(1.5);
+    margin-top: 300px;
   }
 }

@@ -59,8 +59,8 @@ section{
 }
 .hcb_logo{
   transform: scale(0.5);
-  background-color: #151515;
-  border-radius: 34px;
+  margin: -15px;
+
 }
 .highlight{
   color: #db8a74;

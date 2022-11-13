@@ -79,12 +79,12 @@ a{
   border: 2px solid white;
   border-radius: 20px;
   transition: 0.5s;
-  background-color: #212121;
+  background-color: black;
   margin: 5px;
 }
 .buttons:hover{
-  background-color: black;
-  color: whitesmoke;
+  color: #db8a74;
+  border: 2px solid #db8a74;
   transform: scale(1.05);
   transition: 0.5s;
 }
@@ -104,17 +104,21 @@ iframe{
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #f1f1f1;
+  background: #212121;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #888;
+  background: #db8a74;
+  border-radius: 100px;
+  transition: 0.45s;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #555;
+  background: #fff;
+  border-radius: 100px;
+  transition: 0.45s;
 }
 @media screen and (max-width: 768px){
   section{

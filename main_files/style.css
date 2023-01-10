@@ -48,6 +48,7 @@ section{
   justify-content: center;
   align-items: center;
   text-align: center;
+  flex-wrap: wrap;
 }
 .calc_logo{
   background-color: white;
@@ -127,6 +128,7 @@ iframe{
 }
 .card{
   width: 30%;
+  height: 90%;
   text-align: center;
   color: #fff;
   border: 1px solid white;

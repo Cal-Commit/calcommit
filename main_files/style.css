@@ -145,6 +145,7 @@ iframe {
 }
 .card {
   width: 30%;
+  height: 90%;
   text-align: center;
   color: #fff;
   border: 1px solid white;

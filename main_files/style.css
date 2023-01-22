@@ -145,7 +145,6 @@ iframe {
 }
 .card {
   width: 30%;
-  height: 90%;
   text-align: center;
   color: #fff;
   border: 1px solid white;
@@ -162,6 +161,7 @@ iframe {
 }
 .card-body {
   text-align: center;
+  padding-bottom: 100px;
 }
 .card p {
   font-family: "DM Sans", sans-serif;

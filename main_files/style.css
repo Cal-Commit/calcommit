@@ -84,6 +84,10 @@ section {
 .highlight {
   color: #db8a74;
 }
+.highlight-subtitle {
+  color: #db8a74;
+  text-decoration: #db8a74 underline dashed;
+}
 a {
   text-decoration: underline;
   color: white;
@@ -158,6 +162,7 @@ iframe {
 }
 .card-body {
   text-align: center;
+  padding-bottom: 100px;
 }
 .card p {
   font-family: "DM Sans", sans-serif;
@@ -204,4 +209,24 @@ iframe {
   border-radius: 100%;
   background-color: #333333;
   padding: 10px;
+}
+
+.action-link {
+  text-decoration: none;
+  color: white;
+  font-family: "DM Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 800;
+  padding: 10px 20px;
+  border: 2px solid white;
+  border-radius: 20px;
+  transition: 0.5s;
+  background-color: black;
+  margin: 5px;
+}
+.action-link:hover {
+  color: #db8a74;
+  border: 2px solid #db8a74;
+  transform: scale(1.05);
+  transition: 0.5s;
 }
